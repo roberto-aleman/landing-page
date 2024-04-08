@@ -15,4 +15,67 @@ ul {
 
 button {
   font-family: Roboto, sans-serif;
+  background: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 5px 28px;
+}
+
+.header,
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  padding: 16px 72px 72px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.left-links {
+  font-size: 24px;
+}
+
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.right-links,
+.hero-sub {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex-basis: 40%;
+}
+
+.hero-image {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  align-items: center;
+  background: darkgray;
 }
