@@ -44,6 +44,7 @@ button {
 
 .left-links {
   font-size: 24px;
+  font-weight: 600;
 }
 
 .right-links {
@@ -59,7 +60,7 @@ button {
 
 .hero-main {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 800;
 }
 
 .hero-content {
