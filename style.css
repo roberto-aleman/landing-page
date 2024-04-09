@@ -20,7 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   margin: 10px 0;
-  padding: 5px 28px;
+  padding: 6px 28px;
 }
 
 .header,
@@ -78,6 +78,39 @@ button {
   justify-content: center;
   align-items: center;
   background: darkgray;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: 48px;
+  gap: 24px;
+}
+
+.info-main {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+
+.info-card img {
+  height: 200px;
+  width: 200px;
 }
 
 .footer {
