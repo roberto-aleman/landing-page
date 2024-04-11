@@ -6,7 +6,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 ul {
@@ -37,9 +36,10 @@ button {
 
 .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+  gap: 570px;
 }
 
 .left-links {
@@ -85,8 +85,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
-  margin: 48px;
+  margin: 48px auto 56px;
   gap: 24px;
 }
 
@@ -118,24 +117,23 @@ button {
   background: #e5e7eb;
   display: flex;
   flex-direction: column;
-}
-
-.quote-text {
-  height: 400px;
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-  margin: 100px 200px 0;
-  display: flex;
-  flex: 1;
   align-items: center;
 }
 
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 100px;
+  display: flex;
+  max-width: 41ch;
+}
+
 .quote-author {
-  margin: 0 200px 100px;
+  margin-bottom: 100px;
+  margin-left: 36ch;
   font-size: 24px;
   font-weight: 700;
-  text-align: end;
 }
 
 .footer {
